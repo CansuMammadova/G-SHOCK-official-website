@@ -1,0 +1,138 @@
+.about .container {
+    max-width: 1170px;
+    padding: 130px 0 100px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.about .slider {
+    background-image: url(/public/img/about_hero.png.webp);
+    min-height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about .container h4,
+p {
+    justify-content: center;
+    align-items: center;
+}
+
+.about .container h4 {
+    font-size: 30px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #000a2d;
+    display: inline-block;
+    position: relative;
+    padding-left: 68px;
+}
+
+.about .container p {
+    font-family: "Roboto", sans-serif;
+    color: #464d65;
+    font-size: 14px;
+    line-height: 30px;
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+
+.about .video-area {
+    background-image: url(../img/gallery//sectin_bg1.png);
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.about .video-area .play-btn {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    right: 0;
+    text-align: center;
+}
+
+.about .container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.about .thumb-content-box {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 2;
+    width: 34%;
+}
+
+.about .thumb-content-box .thumb-content {
+    position: absolute;
+    bottom: 0;
+    align-items: end;
+    background-image: url(../img/gallery/vidoe_more.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 143px 60px 80px;
+    width: 100%;
+    line-height: 1;
+}
+
+.about .container2 {
+    max-width: 1170px;
+    height: 244px;
+    background-color: #ea0000;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.shop-method-area .method-wrapper .single-method i {
+    font-size: 40px;
+    color: #ffff;
+    margin-bottom: 25px;
+    display: block;
+}
+
+.shop-method-area .method-wrapper .single-method h6 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 12px;
+    font-family: "Roboto", sans-serif;
+}
+
+.shop-method-area .method-wrapper .single-method p {
+    font-size: 16px;
+    color: #d3d1d1;
+    margin-top: 0;
+}
+
+.shop-method-area .method-wrapper .single-method {
+    padding: 43px 20px 0 45px;
+}
+
+.shop-method-area .method-wrapper .single-method i {
+    font-size: 40px;
+    color: #ffff;
+    margin-bottom: 25px;
+    display: block;
+}
