@@ -1,4 +1,8 @@
-.about .container {
+* {
+    box-sizing: border-box;
+}
+
+.container {
     max-width: 1170px;
     padding: 130px 0 100px;
     width: 100%;
@@ -25,24 +29,26 @@ p {
     align-items: center;
 }
 
-.about .container h4 {
-    font-size: 30px;
-    font-family: "Josefin Sans", sans-serif;
-    font-weight: 700;
-    margin-bottom: 30px;
-    color: #000a2d;
-    display: inline-block;
-    position: relative;
-    padding-left: 68px;
-}
+.about-details .container {
+    p {
+        font-family: "Roboto", sans-serif;
+        color: #464d65;
+        font-size: 14px;
+        line-height: 30px;
+        margin-bottom: 15px;
+        margin-top: 0;
+    }
 
-.about .container p {
-    font-family: "Roboto", sans-serif;
-    color: #464d65;
-    font-size: 14px;
-    line-height: 30px;
-    margin-bottom: 15px;
-    font-weight: normal;
+    h4 {
+        font-size: 30px;
+        font-family: "Josefin Sans", sans-serif;
+        font-weight: 700;
+        margin-bottom: 30px;
+        color: #000a2d;
+        display: inline-block;
+        position: relative;
+        padding-left: 68px;
+    }
 }
 
 .about .video-area {

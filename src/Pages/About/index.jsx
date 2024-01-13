@@ -1,33 +1,41 @@
 import React from 'react'
-import './style.css';
+import './style.scss';
+import Layout from '../../Components/Layout';
 
 const About = () => {
   return (
-    <div className='about'>
+    <Layout><div className='about'>
       <div className='slider'>
         <h2>About</h2>
       </div>
-      <div className='container'>
-        <div className='about-details-cap mb-50'>
-          <h4>Our Mission</h4>
-          <p>Consectetur adipiscing elit, sued do eiusmod tempor ididunt udfgt labore
-            et dolore magna aliqua. Quis ipsum suspendisces gravida.
-            Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus.
-            Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus.
-          </p>
-          <p>Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus.
-            Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan.</p>
-          <div className='about-details-cap mb-50'>
-            <h4>Our Vision</h4>
-            <p>Consectetur adipiscing elit, sued do eiusmod tempor ididunt udfgt labore
-              et dolore magna aliqua. Quis ipsum suspendisces gravida.
-              Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus.
-              Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus.
-            </p>
-            <p> Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus.
-              Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan.</p>
+      <div className='about-details'>
+        <div className='container'>
+          <div className='row'>
+            <div className='offset-xl-1 col-lg-8'>
+              <div className='about-details-cap mb-50'>
+                <h4>Our Mission</h4>
+                <p>Consectetur adipiscing elit, sued do eiusmod tempor ididunt udfgt labore
+                  et dolore magna aliqua. Quis ipsum suspendisces gravida.
+                  Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus.
+                  Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus.
+                </p>
+                <p>Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus.
+                  Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan.</p>
+                <div className='about-details-cap mb-50'>
+                  <h4>Our Vision</h4>
+                  <p>Consectetur adipiscing elit, sued do eiusmod tempor ididunt udfgt labore
+                    et dolore magna aliqua. Quis ipsum suspendisces gravida.
+                    Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus.
+                    Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus.
+                  </p>
+                  <p> Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus.
+                    Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan.</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
+
 
         <div className='video-area mb-100'>
           <div className='container-fluid'>
@@ -80,7 +88,7 @@ const About = () => {
           </div>
         </div>
       </div>
-    </div>
+    </div></Layout>
   )
 }
 

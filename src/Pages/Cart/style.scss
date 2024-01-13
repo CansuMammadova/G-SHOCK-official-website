@@ -9,6 +9,10 @@
     align-items: center;
 }
 
+.container {
+    max-width: 1170px;
+}
+
 .cart-area{
     padding: 200px 0px;
 }
@@ -50,7 +54,7 @@
 .cart-inner .table tbody tr td {
     padding-top: 30px;
     padding-bottom: 30px;
-    vertical-align: middle;
+    /* vertical-align: middle; */
     align-self: center;
 }
 
@@ -205,21 +209,25 @@ ul {
     border: 1px solid #f7f7f7;
     height: 40px;
     margin-bottom: 20px;
+    border-radius: 5px;
+    padding-left: 18px;
+    padding-right: 30px;
+    font-family: "Josefin Sans",sans-serif;
+    line-height: 40px;
+    font-size: 14px;
+    outline: none;
+    color: #212529;
+    -moz-appearance:none !important;
+    -webkit-appearance: none !important; 
+    appearance: none !important;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAUCAMAAACtdX32AAAAdVBMVEUAAAD///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhMdQaAAAAJ3RSTlMAAAECAwQGBwsOFBwkJTg5RUZ4eYCHkJefpaytrsXGy8zW3+Do8vNn0bsyAAAAYElEQVR42tXROwJDQAAA0Ymw1p9kiT+L5P5HVEi3qJn2lcPjtIuzUIJ/rhIGy762N3XaThqMN1ZPALsZPEzG1x8LrFL77DHBnEMxBewz0fJ6LyFHTPL7xhwzWYrJ9z22AqmQBV757MHfAAAAAElFTkSuQmCC);
+    background-position: calc(100% - 8px) center;
+    background-repeat: no-repeat;
+    background-size: 18px;
 }
 
 span {
     font-family: "Josefin Sans",sans-serif;
-}
-
-.cart-inner .table tbody tr.shipping-area .shipping-box .shipping-select .list {
-    width: 100%;
-    border-radius: 0px;
-}
-
-.cart-inner .table tbody tr.shipping-area .shipping-box .shipping-select .list li {
-    font-size: 14px;
-    font-weight: normal;
-    color: #828bb2;
 }
 
 .cart-inner .table tbody tr.shipping-area .shipping-box .list li {
