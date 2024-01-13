@@ -107,39 +107,47 @@
     }
 }
 
+.shop-method-area .container {
+    max-width: 1170px;
+    height: 244px;
+    background-color: #ea0000;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
 
+.shop-method-area .method-wrapper .single-method {
+    padding: 43px 20px 0 45px;
 
-.shop-method-area .method-wrapper {
-    background: #ea0000;
-
-    single-method {
-        padding: 43px 20px 0 45px;
-
-        i {
-            font-size: 40px;
-            color: #ffff;
-            margin-bottom: 25px;
-            display: block;
-        }
-
-        h6 {
-            color: #fff;
-            font-size: 20px;
-            font-weight: 700;
-            line-height: 1.2;
-            margin-bottom: 12px;
-            font-family: "Roboto", sans-serif;
-        }
-
-        p {
-            font-size: 16px;
-            color: #d3d1d1;
-            font-family: "Roboto", sans-serif;
-            line-height: 30px;
-            margin-bottom: 15px;
-            margin-top: 0;
-        }
+    i {
+        font-size: 40px;
+        color: #ffff;
+        margin-bottom: 25px;
+        display: block;
     }
+
+    h6 {
+        color: #fff;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 1.2;
+        margin-bottom: 12px;
+        font-family: "Roboto", sans-serif;
+    }
+
+    p {
+        font-size: 16px;
+        color: #d3d1d1;
+        margin-top: 0;
+    }
+
+    i {
+        font-size: 40px;
+        color: #ffff;
+        margin-bottom: 25px;
+        display: block;
+    }
+
 }
 
 
