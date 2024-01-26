@@ -22,7 +22,7 @@ const Shop = () => {
                 </nav>
               </div>
               <div className='select-this'>
-                <form action="">
+                <form action="#">
                   <div className='select-items'>
                     <select className='select'>
                       <option value="1">40 per page</option>
@@ -30,16 +30,6 @@ const Shop = () => {
                       <option value="3">60 per page</option>
                       <option value="4">70 per page</option>
                     </select>
-                    <div className='select-open'>
-                      <span className='current'>
-                        <ul className='list'>
-                          <li className='option'>40 per page</li>
-                          <li className='option'>50 per page</li>
-                          <li className='option'>60 per page</li>
-                          <li className='option'>70 per page</li>
-                        </ul>
-                      </span>
-                    </div>
                   </div>
                 </form>
               </div>

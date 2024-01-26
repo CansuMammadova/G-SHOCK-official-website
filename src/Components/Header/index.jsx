@@ -2,9 +2,28 @@ import React from 'react';
 import './style.css';
 import { Link } from "react-router-dom";
 
+let timeout
+let scroll = 0
 const Header = () => {
+    const [isSticky, setIsSticky] = React.useState(false);
+    React.useEffect(() => {
+        window.onscroll = () => {
+            if (timeout) {
+                clearTimeout(timeout)
+            }
+
+            timeout = setTimeout(() => {
+                if (window.scrollY > 20) {
+                    setIsSticky(true);
+                } else {
+                    setIsSticky(false);
+                }
+                scroll = window.scrollY
+            }, 10)
+        }
+    }, [])
     return (
-        <div className='mainHeader'>
+        <div className={`mainHeader ${isSticky && 'sticky'}`} id='header'>
             <div className='container'>
                 <img src="./img/logo.png.webp" alt="" />
                 <div className='navbar'>

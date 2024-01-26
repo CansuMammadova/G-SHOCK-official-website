@@ -1,7 +1,15 @@
 .mainHeader {
   font-family: 'Josefin Sans', sans-serif;
   padding: 0 10px;
+  background-color: #fff;
+  z-index: 100;
+  transition: top 0.3s ease-in-out;
+  top: -100px;
+}
+
+.sticky {
   position: sticky;
+  top: 0;
 }
 
 .mainHeader .container {
@@ -35,4 +43,3 @@
 .navbar ul li a:hover {
   color: #ff003c;
 }
-

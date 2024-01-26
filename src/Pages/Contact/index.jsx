@@ -1,5 +1,5 @@
 import React from 'react'
-import './style.scss';
+import './style.scss'
 import Layout from '../../Components/Layout';
 
 const Contact = () => {
@@ -20,45 +20,45 @@ const Contact = () => {
         tabIndex="0"
         title="Humanity First Indonesia"
       />
-      <div className="form-container">
-        <h2>Get in Touch</h2>
-        <div className="form-contact-container">
-          <form className="form-contact">
-              <textarea class="form-control" placeholder="Enter Message" />
-              <div className="name-container">
-                <input className="form-control" type='text' placeholder="Enter your name" />
-                <input className="form-control" type='email' placeholder="Enter your email" />
-              </div>
-              <input className="form-control" type='email' placeholder="Enter subject" />
-              <button type="submit">Send</button>
-          </form>
-          <div className="contact-boxes">
-            <div className="contact-box">
-              <span><i class="fa fa-home" aria-hidden="true"></i></span>
-              <div className="media-body">
-                <h3>Buttonwood, California.</h3>
-                <p>Rosemead, CA 91770</p>
-              </div>
-            </div>
-            <div className="contact-box">
-              <span><i class="fa fa-home" aria-hidden="true"></i></span>
-              <div className="media-body">
-                <h3>+1 253 565 2365</h3>
-                <p>Mon to Fri 9am to 6pm</p>
-              </div>
-            </div>
-            <div className="contact-box">
-              <span><i class="fa fa-home" aria-hidden="true"></i></span>
-              <div className="media-body">
-                <h3>support@colorlib.com</h3>
-                <p>Send us your query anytime!</p>
+          <div className="form-container">
+            <h2>Get in Touch</h2>
+            <div className="form-contact-container">
+              <form className="form-contact">
+                <textarea class="form-control" placeholder="Enter Message" />
+                <div className="name-container">
+                  <input className="form-control" type='text' placeholder="Enter your name" />
+                  <input className="form-control" type='email' placeholder="Enter your email" />
+                </div>
+                <input className="form-control" type='email' placeholder="Enter subject" />
+                <button type="submit">Send</button>
+              </form>
+              <div className="contact-boxes">
+                <div className="contact-box">
+                  <span><i class="fa fa-home" aria-hidden="true"></i></span>
+                  <div className="media-body">
+                    <h3>Buttonwood, California.</h3>
+                    <p>Rosemead, CA 91770</p>
+                  </div>
+                </div>
+                <div className="contact-box">
+                  <span><i class="fa fa-home" aria-hidden="true"></i></span>
+                  <div className="media-body">
+                    <h3>+1 253 565 2365</h3>
+                    <p>Mon to Fri 9am to 6pm</p>
+                  </div>
+                </div>
+                <div className="contact-box">
+                  <span><i class="fa fa-home" aria-hidden="true"></i></span>
+                  <div className="media-body">
+                    <h3>support@colorlib.com</h3>
+                    <p>Send us your query anytime!</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-  </div></Layout>
+    </div></Layout>
   )
 }
 

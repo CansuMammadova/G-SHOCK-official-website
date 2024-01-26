@@ -12,7 +12,7 @@ const About = () => {
         <div className='container'>
           <div className='row'>
             <div className='offset-xl-1 col-lg-8'>
-              <div className='about-details-cap mb-50'>
+              <div className='about-details-cap'>
                 <h4>Our Mission</h4>
                 <p>Consectetur adipiscing elit, sued do eiusmod tempor ididunt udfgt labore
                   et dolore magna aliqua. Quis ipsum suspendisces gravida.

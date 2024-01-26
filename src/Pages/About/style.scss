@@ -23,7 +23,18 @@
     align-items: center;
 }
 
+.about-details {
+    .container {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
 .about-details .about-details-cap {
+    margin-bottom: 50px;
 
     h4,
     p {
@@ -222,4 +233,3 @@
     }
 
 }
-

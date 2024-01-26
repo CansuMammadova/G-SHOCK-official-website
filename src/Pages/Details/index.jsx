@@ -21,36 +21,6 @@ const Details = () => {
                           <img src="./img/gallery01.png.webp" alt="" />
                         </div>
                       </div>
-                      {/* <div className='owl-stage cloned'>
-                        <div className='single-product-img'>
-                          <img src="./img/gallery1.png.webp" alt="" />
-                        </div>
-                      </div>
-                      <div className='owl-stage '>
-                        <div className='single-product-img'>
-                          <img src="./img/gallery1.png.webp" alt="" />
-                        </div>
-                      </div>
-                      <div className='owl-stage '>
-                        <div className='single-product-img'>
-                          <img src="./img/gallery1.png.webp" alt="" />
-                        </div>
-                      </div>
-                      <div className='owl-stage active'>
-                        <div className='single-product-img'>
-                          <img src="./img/gallery01.png.webp" alt="" />
-                        </div>
-                      </div>
-                      <div className='owl-stage cloned'>
-                        <div className='single-product-img'>
-                          <img src="./img/gallery1.png.webp" alt="" />
-                        </div>
-                      </div>
-                      <div className='owl-stage cloned'>
-                        <div className='single-product-img'>
-                          <img src="./img/gallery01.png.webp" alt="" />
-                        </div>
-                      </div> */}
                     </div>
                   </div>
                 </div>
@@ -96,12 +66,12 @@ const Details = () => {
                   <h2>Get promotions & updates!</h2>
                   <p>Seamlessly empower fully researched growth strategies and
                     interoperable internal or “organic” sources credibly innovate granular internal .</p>
-                    <div className='subscribe-form'>
-                      <input type="email" placeholder='Enter your mail' />
-                      <div className='btn'>
+                  <div className='subscribe-form'>
+                    <input type="email" placeholder='Enter your mail' />
+                    <div className='btn'>
                       <button>Subscribe</button>
-                      </div>
                     </div>
+                  </div>
                 </div>
               </div>
             </div>
