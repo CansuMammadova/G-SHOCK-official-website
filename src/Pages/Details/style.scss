@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+}
+
+
 .details {
   .slider {
     background-image: url(/public/img/about_hero.png.webp);
@@ -45,22 +50,20 @@
   margin: 100px 0 200px;
   text-align: center !important;
 
-  .h3 {
-    font-family: "Josefin Sans",sans-serif;
+  h3 {
+    font-family: "Josefin Sans", sans-serif;
     font-size: 40px;
     color: #0b1c39;
     margin-top: 0px;
-    font-style: normal;
-    font-weight: 500;
   }
-  
-  .p {
+
+  p {
+    margin-top: 50px;
     font-family: "Roboto", sans-serif;
     color: #777;
     font-size: 16px;
     line-height: 30px;
     margin-bottom: 15px;
-    margin-top: 50px;
     color: #707070;
   }
 }
@@ -128,17 +131,29 @@
 .subscribe-part-content {
   text-align: center;
 
+  .row {
+    justify-content: center !important;
+  }
+
   h2,
   p {
     color: #fff;
   }
 
+  h2 {
+    font-family: "Josefin Sans", sans-serif;
+  }
+
   p {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 15px;
     margin-top: 0;
   }
 }
 
-.subscribe-form {
+.subscribe-part .subscribe-form {
   margin: 0 auto;
   margin-top: 45px;
   position: relative;
@@ -155,23 +170,24 @@
   }
 }
 
-.btn {
+.subscribe-part .subscribe-form .btn_1 {
   background-color: #2577fd;
   color: #fff;
   padding: 15px 30px;
-  line-height: 15px;
+  line-height: 16px;
   border-radius: 50px;
   position: absolute;
   right: 5px;
-  top: 4px;
+  top: 5px;
 }
 
-.subscribe-part .subscribe-form .btn:hover {
+.subscribe-part .subscribe-form .btn_1:hover {
   background-color: #fff;
+  color: red;
   border: 2px solid #2577fd;
-  color: #fff;
-  display: inline-block;
+  transition: 0.5s;
 }
+
 
 .subscribe-part .container .col-lg-8 {
   position: relative;

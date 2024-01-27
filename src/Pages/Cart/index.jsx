@@ -94,17 +94,13 @@ const Cart = () => {
                   </tr>
                   <tr className='bottom-button'>
                     <td>
-                      <a className='btn-1' href='#'>
-                        Update Cart
-                      </a>
+                      <a href="#" className='btn_1'>Update Cart</a>
                     </td>
                     <td></td>
                     <td></td>
                     <td>
                       <div className='cupon-text'>
-                        <a className='btn-1' href='#'>
-                          Close Coupon
-                        </a>
+                        <a href="#" className='btn_1'>Close Coupon</a>
                       </div>
                     </td>
                   </tr>
@@ -127,10 +123,18 @@ const Cart = () => {
                     <td>
                       <div className='shipping-box'>
                         <ul className='list'>
-                          <li>Flat Rate: $5.00</li>
-                          <li>Free Shipping</li>
-                          <li>Flat Rate: $10.00</li>
-                          <li>Local Delivery: $2.00 </li>
+                          <li>Flat Rate: $5.00
+                            <input type="radio" />
+                          </li>
+                          <li>Free Shipping
+                            <input type="radio" />
+                          </li>
+                          <li>Flat Rate: $10.00
+                            <input type="radio" />
+                          </li>
+                          <li>Local Delivery: $2.00
+                            <input type="radio" />
+                          </li>
                         </ul>
                         <h6>
                           Calculate Shipping
@@ -154,7 +158,7 @@ const Cart = () => {
                           type='text'
                           placeholder='Postcode/Zipcode'
                         ></input>
-                        <a className='btn-1' href='#'>
+                        <a className='btn_1' href='#'>
                           Update Details
                         </a>
                       </div>
@@ -163,10 +167,10 @@ const Cart = () => {
                 </tbody>
               </table>
               <div className='checkout-btn-inner'>
-                <a className='btn-1' href='#'>
+                <a className='btn_1' href='#'>
                   Continue Shopping
                 </a>
-                <a className='checkout-btn-1' href='#'>
+                <a className='btn_1' href='#'>
                   Proceed to checkout
                 </a>
               </div>

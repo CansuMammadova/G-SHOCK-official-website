@@ -68,9 +68,7 @@ const Details = () => {
                     interoperable internal or “organic” sources credibly innovate granular internal .</p>
                   <div className='subscribe-form'>
                     <input type="email" placeholder='Enter your mail' />
-                    <div className='btn'>
-                      <button>Subscribe</button>
-                    </div>
+                    <a href="#" className='btn_1'>Subscribe</a>
                   </div>
                 </div>
               </div>
