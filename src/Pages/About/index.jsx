@@ -35,52 +35,52 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className='video-area mb-100'>
-          <div className='container-fluid'>
-            <div className='row align-items-center'>
-              <div className='col-lg-12'>
-                <div className='video-wrap'>
-                  <div className='play-btn'>
-                    <a className='popup-video'
-                      href="https://www.youtube.com/watch?v=KMc6DyEJp04">
-                      <i className='fas fa-play'></i></a></div>
-                </div>
-              </div>
-            </div>
-            <div className='thumb-content-box'>
-              <div className='thumb-content'>
-                <h3>Next Video</h3>
-                <a href="#">
-                  <i className='flaticon-arrow'></i>
-                </a>
+      </div>
+      <div className='video-area mb-100'>
+        <div className='container-fluid'>
+          <div className='row align-items-center'>
+            <div className='col-lg-12'>
+              <div className='video-wrap'>
+                <div className='play-btn'>
+                  <a className='popup-video'
+                    href="https://www.youtube.com/watch?v=KMc6DyEJp04">
+                    <i className='fas fa-play'></i></a></div>
               </div>
             </div>
           </div>
+          <div className='thumb-content-box'>
+            <div className='thumb-content'>
+              <h3>Next Video</h3>
+              <a href="#">
+                <i className='flaticon-arrow'></i>
+              </a>
+            </div>
+          </div>
         </div>
-        <div className='shop-method-area'>
-          <div className='container2'>
-            <div className='method-wrapper'>
-              <div className='row d-flex justify-content-between'>
-                <div className='col-xl-4 col-lg-4 col-md-6'>
-                  <div className='single-method mb-40'>
-                    <i className='ti-package'></i>
-                    <h6>Free Shipping Method</h6>
-                    <p>aorem ixpsacdolor sit ameasecur adipisicing elitsf edasd.</p>
-                  </div>
+      </div>
+      <div className='shop-method-area'>
+        <div className='container'>
+          <div className='method-wrapper'>
+            <div className='row d-flex justify-content-between'>
+              <div className='col-xl-4 col-lg-4 col-md-6'>
+                <div className='single-method'>
+                  <i className='ti-package'></i>
+                  <h6>Free Shipping Method</h6>
+                  <p>aorem ixpsacdolor sit ameasecur adipisicing elitsf edasd.</p>
                 </div>
-                <div className='col-xl-4 col-lg-4 col-md-6'>
-                  <div className='single-method mb-40'>
-                    <i className='ti-unlock'></i>
-                    <h6>Secure Payment System</h6>
-                    <p>aorem ixpsacdolor sit ameasecur adipisicing elitsf edasd.</p>
-                  </div>
+              </div>
+              <div className='col-xl-4 col-lg-4 col-md-6'>
+                <div className='single-method mb-40'>
+                  <i className='ti-unlock'></i>
+                  <h6>Secure Payment System</h6>
+                  <p>aorem ixpsacdolor sit ameasecur adipisicing elitsf edasd.</p>
                 </div>
-                <div className='col-xl-4 col-lg-4 col-md-6'>
-                  <div className='single-method mb-40'>
-                    <i className='ti-reload'></i>
-                    <h6>Secure Payment System</h6>
-                    <p>aorem ixpsacdolor sit ameasecur adipisicing elitsf edasd.</p>
-                  </div>
+              </div>
+              <div className='col-xl-4 col-lg-4 col-md-6'>
+                <div className='single-method mb-40'>
+                  <i className='ti-reload'></i>
+                  <h6>Secure Payment System</h6>
+                  <p>aorem ixpsacdolor sit ameasecur adipisicing elitsf edasd.</p>
                 </div>
               </div>
             </div>

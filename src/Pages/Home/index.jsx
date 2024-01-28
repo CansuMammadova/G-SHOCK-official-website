@@ -308,7 +308,7 @@ const Home = () => {
         </div>
       </div>
       <div className='shop-method-area'>
-        <div className='container2'>
+        <div className='container'>
           <div className='method-wrapper'>
             <div className='row d-flex justify-content-between'>
               <div className='col-xl-4 col-lg-4 col-md-6'>

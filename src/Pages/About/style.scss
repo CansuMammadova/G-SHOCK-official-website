@@ -2,16 +2,6 @@
     box-sizing: border-box;
 }
 
-.about-details .container {
-    max-width: 1170px;
-    padding: 130px 0 100px;
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
 .about .slider {
     background-image: url(/public/img/about_hero.png.webp);
     min-height: 500px;
@@ -25,6 +15,8 @@
 
 .about-details {
     .container {
+        max-width: 1170px;
+        padding: 130px 0 100px;
         width: 100%;
         padding-right: 15px;
         padding-left: 15px;
@@ -191,7 +183,8 @@
     }
 }
 
-.shop-method-area .container2 {
+.shop-method-area .container {
+    margin-top: 100px;
     max-width: 1170px;
     height: 244px;
     background-color: #ea0000;
