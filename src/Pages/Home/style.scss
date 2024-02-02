@@ -175,6 +175,13 @@
 }
 
 .popular-items {
+    .row {
+        justify-content: center !important;
+    }
+
+    .room-btn {
+        padding-top: 70px;
+    }
 
     .single-popular-items {
         margin-bottom: 50px;
@@ -200,6 +207,12 @@
         overflow: hidden;
         margin: 0;
     }
+
+    .btn:hover {
+        background: #4a4a4b;
+        transition: transform 0.5s;
+    }
+
 
     .section-tittle {
         p {
@@ -342,6 +355,11 @@
 
 
 .watch-area {
+    .row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 
     .choice-watch-img img {
         width: 100%;
@@ -378,13 +396,16 @@
             border-radius: 0px;
             display: inline-block;
             line-height: 0;
-            margin-bottom: 0;
-            transition: color 0.4s linear;
             position: relative;
             z-index: 1;
             border: 0;
             overflow: hidden;
             margin: 0;
+        }
+
+        .btn:hover {
+            background: #4a4a4b;
+            transition: transform 0.5s;
         }
     }
 }

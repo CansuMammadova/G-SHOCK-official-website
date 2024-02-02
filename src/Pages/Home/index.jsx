@@ -244,8 +244,8 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className='row justify-content-center'>
-            <div className='room-btn pt-70'>
+          <div className='row'>
+            <div className='room-btn'>
               <a href="" className='btn view-btn1'>View More Products</a>
             </div>
           </div>
