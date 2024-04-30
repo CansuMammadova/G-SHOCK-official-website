@@ -2,6 +2,18 @@ import React from 'react'
 import Layout from '../../Components/Layout'
 import './style.scss';
 
+
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+
+// import required modules
+import { Pagination } from 'swiper/modules';
+
+
 const Home = () => {
   return (
     <Layout>
@@ -10,13 +22,21 @@ const Home = () => {
           <div className='slick-list draggable'>
             <div className='slick-track'>
               <div className='single-slider'>
-                <div className='container' style={{display: 'flex'}}>
+                <div className='container' style={{ display: 'flex' }}>
                   <div className='row justify-content-between align-items-center'>
                     <div className='col-xl-8 col-lg-8 col-md-8 col-sm-8'>
-                      <div className='hero-caption'>
+                      <div className='hero-caption'
+                        data-aos="fade-right"
+                        data-aos-mirror="true"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">
                         <h1>Select Your New Perfect Style</h1>
                         <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat is aute irure.</p>
-                        <div className='hero_btn'>
+                        <div className='hero_btn'
+                          data-aos="fade-right"
+                          data-aos-mirror="true"
+                          data-aos-offset="200"
+                          data-aos-easing="ease-in-sine">
                           <a href="" className='btn hero_btn'>Shop Now</a>
                         </div>
                       </div>
@@ -43,39 +63,63 @@ const Home = () => {
             </div>
           </div>
           <div className='row'>
-            <div className='col-xl-4 col-lg-4 col-md-6 col-sm-6'>
-              <div className='single-new-pro mb-30 text-center'>
-                <div className='product-img'>
-                  <img src="./img/new_product1.png.webp" alt="" />
+
+            <Swiper
+              slidesPerView={3}
+              spaceBetween={30}
+              pagination={{
+                clickable: true,
+              }}
+              modules={[Pagination]}
+              className="mySwiper"
+            >
+              <SwiperSlide>
+                <div className='single-new-pro mb-30 text-center'>
+                  <div className='product-img'>
+                    <img src="./img/new_product1.png.webp" alt="" />
+                  </div>
+                  <div className='product-caption'>
+                    <h3>Thermo Ball Etip Gloves</h3>
+                    <span>$ 45,743</span>
+                  </div>
                 </div>
-                <div className='product-caption'>
-                  <h3>Thermo Ball Etip Gloves</h3>
-                  <span>$ 45,743</span>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className='single-new-pro mb-30 text-center'>
+                  <div className='product-img'>
+                    <img src="./img/new_product2.png.webp" alt="" />
+                  </div>
+                  <div className='product-caption'>
+                    <h3>Thermo Ball Etip Gloves</h3>
+                    <span>$ 45,743</span>
+                  </div>
                 </div>
-              </div>
-            </div>
-            <div className='col-xl-4 col-lg-4 col-md-6 col-sm-6'>
-              <div className='single-new-pro mb-30 text-center'>
-                <div className='product-img'>
-                  <img src="./img/new_product2.png.webp" alt="" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className='single-new-pro mb-30 text-center'>
+                  <div className='product-img'>
+                    <img src="./img/new_product3.png.webp" alt="" />
+                  </div>
+                  <div className='product-caption'>
+                    <h3>Thermo Ball Etip Gloves</h3>
+                    <span>$ 45,743</span>
+                  </div>
                 </div>
-                <div className='product-caption'>
-                  <h3>Thermo Ball Etip Gloves</h3>
-                  <span>$ 45,743</span>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className='single-new-pro mb-30 text-center'>
+                  <div className='product-img'>
+                    <img src="./img/new_product2.png.webp" alt="" />
+                  </div>
+                  <div className='product-caption'>
+                    <h3>Thermo Ball Etip Gloves</h3>
+                    <span>$ 45,743</span>
+                  </div>
                 </div>
-              </div>
-            </div>
-            <div className='col-xl-4 col-lg-4 col-md-6 col-sm-6'>
-              <div className='single-new-pro mb-30 text-center'>
-                <div className='product-img'>
-                  <img src="./img/new_product3.png.webp" alt="" />
-                </div>
-                <div className='product-caption'>
-                  <h3>Thermo Ball Etip Gloves</h3>
-                  <span>$ 45,743</span>
-                </div>
-              </div>
-            </div>
+              </SwiperSlide>
+            </Swiper>
+
+
           </div>
         </div>
       </section>

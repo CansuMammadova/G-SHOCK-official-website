@@ -115,9 +115,25 @@
 }
 
 .single-new-pro {
+    &:hover {
+        .product-img {
+            img {
+                scale: 1.2;
+            }
+        }
+    }
+
     .product-img {
         overflow: hidden;
         margin-bottom: 30px;
+
+        img {
+            transition: all .3s;
+            -webkit-transition: all .3s;
+            -moz-transition: all .3s;
+            -ms-transition: all .3s;
+            -o-transition: all .3s;
+        }
     }
 
     h3 {
@@ -140,9 +156,20 @@
     position: relative;
     overflow: hidden;
 
-    gallery-img {
-        transform: scale(1.06);
-        transition: all .4s ease-out 0s;
+    img {
+        transition: all .3s;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        -ms-transition: all .3s;
+        -o-transition: all .3s;
+    }
+
+    &:hover {
+        .gallery-img {
+            img {
+                scale: 1.2;
+            }
+        }
     }
 
     .big-img {
@@ -160,20 +187,6 @@
     }
 }
 
-.gallery-area .single-gallery::before {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    content: "";
-    background-color: rgba(1, 10, 28, 0.3);
-    opacity: 0;
-    z-index: 1;
-    transition: all .4s ease-out 0s;
-}
-
 .popular-items {
     .row {
         justify-content: center !important;
@@ -185,6 +198,13 @@
 
     .single-popular-items {
         margin-bottom: 50px;
+    }
+
+    .img-cap :hover {
+        color: #fff;
+        background: #f81f1f;
+        padding: 20px 0;
+        display: block;
     }
 
     .btn {

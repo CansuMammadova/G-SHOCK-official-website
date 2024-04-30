@@ -2,6 +2,12 @@ import React from 'react'
 import Layout from '../../Components/Layout'
 import './style.scss';
 
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+
 const Details = () => {
   return (
     <Layout>
@@ -12,19 +18,73 @@ const Details = () => {
         <div className='product-img-area'>
           <div className='container'>
             <div className='row justify-content-center'>
-              <div className='col-lg-12'>
-                <div className='owl-carousel'>
-                  <div className='owl-stage-outer'>
-                    <div className='owl-stage'>
-                      <div className='owl-stage cloned'>
-                        <div className='single-product-img'>
-                          <img src="./img/gallery01.png.webp" alt="" />
+              <Swiper className="mySwiper">
+                <div className='col-lg-12'>
+                  <div className='owl-carousel'>
+                    <div className='owl-stage-outer'>
+                      <div className='owl-stage'>
+                        <div className='owl-stage cloned'>
+                          <div className='single-product-img'>
+                            <img src="./img/gallery01.png.webp" alt="" />
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
+              </Swiper>
+              <Swiper className="mySwiper">
+                  <div className='owl-carousel'>
+                    <div className='owl-stage-outer'>
+                      <div className='owl-stage'>
+                        <div className='owl-stage cloned'>
+                          <div className='single-product-img'>
+                            <img src="./img/gallery01.png.webp" alt="" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </Swiper>
+              <Swiper className="mySwiper">
+                  <div className='owl-carousel'>
+                    <div className='owl-stage-outer'>
+                      <div className='owl-stage'>
+                        <div className='owl-stage cloned'>
+                          <div className='single-product-img'>
+                            <img src="./img/gallery01.png.webp" alt="" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </Swiper>
+              <Swiper className="mySwiper">
+                  <div className='owl-carousel'>
+                    <div className='owl-stage-outer'>
+                      <div className='owl-stage'>
+                        <div className='owl-stage cloned'>
+                          <div className='single-product-img'>
+                            <img src="./img/gallery01.png.webp" alt="" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </Swiper>
+              {/* <div className='col-lg-12'>
+                <div className='owl-carousel'>
+                  <div className='owl-stage-outer'>
+                    <div className='owl-stage'>
+                      <div className='owl-stage cloned'>
+                        <div className='single-product-img'>
+                          <img src="./img/gallery01.png.webp" alt=""/>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div> */}
               <div className='col-lg-8'>
                 <div className='single-product-text'>
                   <h3>Foam filling cotton slow
@@ -76,7 +136,7 @@ const Details = () => {
           </div>
         </section>
       </div>
-    </Layout>
+    </Layout >
   )
 }
 
