@@ -44,7 +44,7 @@ const Shop = () => {
                         <span>Add to cart</span>
                       </div>
                       <div className='favorit-items'>
-                        <span className='flaticon-heart'></span>
+                        {/* <span className='fa fa-heart'></span> */}
                       </div>
                     </div>
                     <div className='popular-caption'>
@@ -63,7 +63,7 @@ const Shop = () => {
                         <span>Add to cart</span>
                       </div>
                       <div className='favorit-items'>
-                        <span className='flaticon-heart'></span>
+                        {/* <span className='fa fa-heart'></span> */}
                       </div>
                     </div>
                     <div className='popular-caption'>
@@ -82,7 +82,7 @@ const Shop = () => {
                         <span>Add to cart</span>
                       </div>
                       <div className='favorit-items'>
-                        <span className='flaticon-heart'></span>
+                      {/* <span className='fa fa-heart'></span> */}
                       </div>
                     </div>
                     <div className='popular-caption'>
@@ -101,7 +101,7 @@ const Shop = () => {
                         <span>Add to cart</span>
                       </div>
                       <div className='favorit-items'>
-                        <span className='flaticon-heart'></span>
+                        {/* <span className='fa fa-heart'></span> */}
                       </div>
                     </div>
                     <div className='popular-caption'>
@@ -120,7 +120,7 @@ const Shop = () => {
                         <span>Add to cart</span>
                       </div>
                       <div className='favorit-items'>
-                        <span className='flaticon-heart'></span>
+                      {/* <span className='fa fa-heart'></span> */}
                       </div>
                     </div>
                     <div className='popular-caption'>
@@ -139,7 +139,7 @@ const Shop = () => {
                         <span>Add to cart</span>
                       </div>
                       <div className='favorit-items'>
-                        <span className='flaticon-heart'></span>
+                        {/* <span className='fa fa-heart'></span> */}
                       </div>
                     </div>
                     <div className='popular-caption'>

@@ -39,7 +39,7 @@ const Cart = () => {
                     <td>
                       <div className='product-count'>
                         <span className='input-number-decrement'>
-                          <i className='ti-minus'></i>
+                          <i className='fa fa-minus'></i>
                         </span>
                         <input
                           className='input-number'
@@ -49,7 +49,7 @@ const Cart = () => {
                           max='10'
                         ></input>
                         <span className='input-number-increment'>
-                          <i className='ti-plus'></i>
+                          <i className='fa fa-plus'></i>
                         </span>
                       </div>
                     </td>
@@ -74,7 +74,7 @@ const Cart = () => {
                     <td>
                       <div className='product-count'>
                         <span className='input-number-decrement'>
-                          <i className='ti-minus'></i>
+                          <i className='fa fa-minus'></i>
                         </span>
                         <input
                           className='input-number'
@@ -84,7 +84,7 @@ const Cart = () => {
                           max='10'
                         ></input>
                         <span className='input-number-increment'>
-                          <i className='ti-plus'></i>
+                          <i className='fa fa-plus'></i>
                         </span>
                       </div>
                     </td>

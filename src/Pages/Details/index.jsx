@@ -81,74 +81,6 @@ const Details = () => {
                   </div>
                 </SwiperSlide>
               </Swiper>
-
-              {/* <Swiper className="mySwiper">
-                <div className='col-lg-12'>
-                  <div className='owl-carousel'>
-                    <div className='owl-stage-outer'>
-                      <div className='owl-stage'>
-                        <div className='owl-stage cloned'>
-                          <div className='single-product-img'>
-                            <img src="./img/gallery01.png.webp" alt="" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </Swiper>
-              <Swiper className="mySwiper">
-                <div className='owl-carousel'>
-                  <div className='owl-stage-outer'>
-                    <div className='owl-stage'>
-                      <div className='owl-stage cloned'>
-                        <div className='single-product-img'>
-                          <img src="./img/gallery01.png.webp" alt="" />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </Swiper>
-              <Swiper className="mySwiper">
-                <div className='owl-carousel'>
-                  <div className='owl-stage-outer'>
-                    <div className='owl-stage'>
-                      <div className='owl-stage cloned'>
-                        <div className='single-product-img'>
-                          <img src="./img/gallery01.png.webp" alt="" />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </Swiper>
-              <Swiper className="mySwiper">
-                <div className='owl-carousel'>
-                  <div className='owl-stage-outer'>
-                    <div className='owl-stage'>
-                      <div className='owl-stage cloned'>
-                        <div className='single-product-img'>
-                          <img src="./img/gallery01.png.webp" alt="" />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </Swiper> */}
-              {/* <div className='col-lg-12'>
-                <div className='owl-carousel'>
-                  <div className='owl-stage-outer'>
-                    <div className='owl-stage'>
-                      <div className='owl-stage cloned'>
-                        <div className='single-product-img'>
-                          <img src="./img/gallery01.png.webp" alt=""/>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div> */}
               <div className='col-lg-8'>
                 <div className='single-product-text'>
                   <h3>Foam filling cotton slow
@@ -164,16 +96,15 @@ const Details = () => {
                       <p>Quantity</p>
                       <div className='product-count'>
                         <span className='product-count-items decrement'>
-                          <i className='ti-minus'></i>
+                          <i className='fa fa-minus'></i>
                         </span>
                         <span className='product-count-items increment'>
-                          <i className='ti-plus'></i>
+                          <i className='fa fa-plus'></i>
                         </span>
                       </div>
                       <p>5$</p>
                     </div>
                     <div className='add-to-cart'>
-                      {/* <button>ADD TO CART</button> */}
                       <a href="#" className='btn_3'>add to cart</a>
                     </div>
                   </div>
