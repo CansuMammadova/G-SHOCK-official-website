@@ -8,6 +8,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
 import "swiper/css";
 
+
 const Details = () => {
   return (
     <Layout>
@@ -19,6 +20,69 @@ const Details = () => {
           <div className='container'>
             <div className='row justify-content-center'>
               <Swiper className="mySwiper">
+                <SwiperSlide>
+                  <div className='col-lg-12'>
+                    <div className='owl-carousel'>
+                      <div className='owl-stage-outer'>
+                        <div className='owl-stage'>
+                          <div className='owl-stage cloned'>
+                            <div className='single-product-img'>
+                              <img src="./img/gallery1.png.webp" alt="" />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className='col-lg-12'>
+                    <div className='owl-carousel'>
+                      <div className='owl-stage-outer'>
+                        <div className='owl-stage'>
+                          <div className='owl-stage cloned'>
+                            <div className='single-product-img'>
+                              <img src="./img/gallery01.png.webp" alt="" />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className='col-lg-12'>
+                    <div className='owl-carousel'>
+                      <div className='owl-stage-outer'>
+                        <div className='owl-stage'>
+                          <div className='owl-stage cloned'>
+                            <div className='single-product-img'>
+                              <img src="./img/gallery1.png.webp" alt="" />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className='col-lg-12'>
+                    <div className='owl-carousel'>
+                      <div className='owl-stage-outer'>
+                        <div className='owl-stage'>
+                          <div className='owl-stage cloned'>
+                            <div className='single-product-img'>
+                              <img src="./img/gallery01.png.webp" alt="" />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </SwiperSlide>
+              </Swiper>
+
+              {/* <Swiper className="mySwiper">
                 <div className='col-lg-12'>
                   <div className='owl-carousel'>
                     <div className='owl-stage-outer'>
@@ -34,44 +98,44 @@ const Details = () => {
                 </div>
               </Swiper>
               <Swiper className="mySwiper">
-                  <div className='owl-carousel'>
-                    <div className='owl-stage-outer'>
-                      <div className='owl-stage'>
-                        <div className='owl-stage cloned'>
-                          <div className='single-product-img'>
-                            <img src="./img/gallery01.png.webp" alt="" />
-                          </div>
+                <div className='owl-carousel'>
+                  <div className='owl-stage-outer'>
+                    <div className='owl-stage'>
+                      <div className='owl-stage cloned'>
+                        <div className='single-product-img'>
+                          <img src="./img/gallery01.png.webp" alt="" />
                         </div>
                       </div>
                     </div>
                   </div>
+                </div>
               </Swiper>
               <Swiper className="mySwiper">
-                  <div className='owl-carousel'>
-                    <div className='owl-stage-outer'>
-                      <div className='owl-stage'>
-                        <div className='owl-stage cloned'>
-                          <div className='single-product-img'>
-                            <img src="./img/gallery01.png.webp" alt="" />
-                          </div>
+                <div className='owl-carousel'>
+                  <div className='owl-stage-outer'>
+                    <div className='owl-stage'>
+                      <div className='owl-stage cloned'>
+                        <div className='single-product-img'>
+                          <img src="./img/gallery01.png.webp" alt="" />
                         </div>
                       </div>
                     </div>
                   </div>
+                </div>
               </Swiper>
               <Swiper className="mySwiper">
-                  <div className='owl-carousel'>
-                    <div className='owl-stage-outer'>
-                      <div className='owl-stage'>
-                        <div className='owl-stage cloned'>
-                          <div className='single-product-img'>
-                            <img src="./img/gallery01.png.webp" alt="" />
-                          </div>
+                <div className='owl-carousel'>
+                  <div className='owl-stage-outer'>
+                    <div className='owl-stage'>
+                      <div className='owl-stage cloned'>
+                        <div className='single-product-img'>
+                          <img src="./img/gallery01.png.webp" alt="" />
                         </div>
                       </div>
                     </div>
                   </div>
-              </Swiper>
+                </div>
+              </Swiper> */}
               {/* <div className='col-lg-12'>
                 <div className='owl-carousel'>
                   <div className='owl-stage-outer'>

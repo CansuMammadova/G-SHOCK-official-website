@@ -41,14 +41,14 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className="contact-box">
-                  <span><i class="fa fa-home" aria-hidden="true"></i></span>
+                  <span><i class="fa fa-phone" aria-hidden="true"></i></span>
                   <div className="media-body">
                     <h3>+1 253 565 2365</h3>
                     <p>Mon to Fri 9am to 6pm</p>
                   </div>
                 </div>
                 <div className="contact-box">
-                  <span><i class="fa fa-home" aria-hidden="true"></i></span>
+                  <span><i class="fa fa-tablet" aria-hidden="true"></i></span>
                   <div className="media-body">
                     <h3>support@colorlib.com</h3>
                     <p>Send us your query anytime!</p>

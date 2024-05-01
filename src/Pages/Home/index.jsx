@@ -13,7 +13,6 @@ import 'swiper/css/pagination';
 // import required modules
 import { Pagination } from 'swiper/modules';
 
-
 const Home = () => {
   return (
     <Layout>
@@ -303,7 +302,7 @@ const Home = () => {
                 <div className='play-btn'>
                   <a className='popup-video'
                     href="https://www.youtube.com/watch?v=KMc6DyEJp04">
-                    <i className='fas fa-play'></i></a></div>
+                    <i className='fa fa-play'></i></a></div>
               </div>
             </div>
           </div>
@@ -311,7 +310,7 @@ const Home = () => {
             <div className='thumb-content'>
               <h3>Next Video</h3>
               <a href="#">
-                <i className='flaticon-arrow'></i>
+                <i className='fa fa-arrow'></i>
               </a>
             </div>
           </div>

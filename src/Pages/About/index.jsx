@@ -44,7 +44,9 @@ const About = () => {
                 <div className='play-btn'>
                   <a className='popup-video'
                     href="https://www.youtube.com/watch?v=KMc6DyEJp04">
-                    <i className='fas fa-play'></i></a></div>
+                    <i className='fa fa-play'></i>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -52,7 +54,7 @@ const About = () => {
             <div className='thumb-content'>
               <h3>Next Video</h3>
               <a href="#">
-                <i className='flaticon-arrow'></i>
+                <i className='fa fa-arrow'></i>
               </a>
             </div>
           </div>
@@ -64,21 +66,21 @@ const About = () => {
             <div className='row d-flex justify-content-between'>
               <div className='col-xl-4 col-lg-4 col-md-6'>
                 <div className='single-method'>
-                  <i className='ti-package'></i>
+                  <span><i class="fa fa-square" aria-hidden="true"></i></span>
                   <h6>Free Shipping Method</h6>
                   <p>aorem ixpsacdolor sit ameasecur adipisicing elitsf edasd.</p>
                 </div>
               </div>
               <div className='col-xl-4 col-lg-4 col-md-6'>
                 <div className='single-method mb-40'>
-                  <i className='ti-unlock'></i>
+                  <span><i class="fa fa-unlock" aria-hidden="true"></i></span>
                   <h6>Secure Payment System</h6>
                   <p>aorem ixpsacdolor sit ameasecur adipisicing elitsf edasd.</p>
                 </div>
               </div>
               <div className='col-xl-4 col-lg-4 col-md-6'>
                 <div className='single-method mb-40'>
-                  <i className='ti-reload'></i>
+                  <span><i class="fa fa-circle" aria-hidden="true"></i></span>
                   <h6>Secure Payment System</h6>
                   <p>aorem ixpsacdolor sit ameasecur adipisicing elitsf edasd.</p>
                 </div>
