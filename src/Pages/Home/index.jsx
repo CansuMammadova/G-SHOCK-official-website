@@ -43,7 +43,7 @@ const Home = () => {
                   </div>
                   <div className='col-xl-3 col-lg-3 col-md-4 col-sm-4 d-none d-sm-block'>
                     <div className='hero-img'>
-                      <img src="./img/watch.png.webp" alt="" />
+                      <img src="./img/watch.png.webp" alt class='heartbeat' data-aos="heartbeat" data-delay=".4s"/>
                     </div>
                   </div>
                 </div>
