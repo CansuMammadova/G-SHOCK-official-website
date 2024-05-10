@@ -5,9 +5,6 @@ import './style.scss';
 const Cart = () => {
   return (
     <Layout><div className='cart'>
-      <div className='slider'>
-        <h2>Cart List</h2>
-      </div>
       <div className='cart-area'>
         <div className='container'>
           <div className='cart-inner'>

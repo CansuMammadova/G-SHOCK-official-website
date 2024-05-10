@@ -1,12 +1,25 @@
 .mainFooter {
-    font-family: 'Roboto', sans-serif;
+    background-color: #000;
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 0 10px;
-    padding-top: 250px;
-    padding-bottom: 120px;
+    padding-top: 130px;
+    padding-bottom: 100px;
+}
+
+.mainFooter h1{
+    cursor: context-menu;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .mainFooter .container {
     padding: 0 15px;
+}
+
+.mainFooter h4{
+    cursor: context-menu;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 30px;
 }
 
 .container ul {
@@ -14,8 +27,7 @@
 }
 
 .container ul li {
-    color: #012f5f;
-    margin-bottom: 15px;
+    margin-bottom: 13px;
 }
 
 .mainFooter ul {
@@ -24,7 +36,7 @@
 
 .mainFooter .container ul li a {
     text-decoration: none;
-    color: #868c98;
+    color: #a1abc1;
 }
 
 a {
@@ -35,11 +47,11 @@ a {
     -o-transition: all .2s ease-out 0s;
 }
 
-.container ul li a:hover{
+.container ul li a:hover {
     color: #ff003c;
 }
 
-.container p{
+.container p {
     font-size: 16px;
     color: #777;
 }

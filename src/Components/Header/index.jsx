@@ -25,7 +25,7 @@ const Header = () => {
     return (
         <div className={`mainHeader ${isSticky && 'sticky'}`} id='header'>
             <div className='container'>
-                <img src="./img/logo.png.webp" alt="" />
+                <h1>G-SHOCK</h1>
                 <div className='navbar'>
                     <ul>
                         <li>
@@ -35,13 +35,7 @@ const Header = () => {
                             <Link to="/shop">Shop</Link>
                         </li>
                         <li>
-                            <Link to="/about">About</Link>
-                        </li>
-                        <li>
                             <Link to="/contact">Contact</Link>
-                        </li>
-                        <li>
-                            <Link to="/details">Details</Link>
                         </li>
                         <li>
                             <Link to="/cart">Cart</Link>

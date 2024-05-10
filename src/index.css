@@ -4,7 +4,6 @@
   margin: 0; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-smooth: never;
 }
 
 .swiper {
@@ -30,5 +29,5 @@
   object-fit: cover;
 }
 .swiper-pagination{
-  bottom: -6px !important;
+  bottom: -5px !important;
 }

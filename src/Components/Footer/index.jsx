@@ -8,18 +8,14 @@ const Footer = () => {
             <div className='container'>
                 <div className='row d-flex justify-content-between'>
                     <div className='col-xl-3 col-lg-3 col-md-5 col-sm-6'>
-                        <div className='footer-logo'>
-                            <img src="./img/logo.png.webp" alt="" />
-                        </div>
-                        <p className="description">Asorem ipsum adipolor sdit amet, consectetur adipisicing elitcf sed do eiusmod tem.</p>
+                        <h1>G-SHOCK</h1>
                     </div>
                     <div className='col-xl-2 col-lg-3 col-md-3 col-sm-5'>
                         <div className='footerTitle'>
-                            <h4>Quick Links</h4>
+                            <h4>PRODUCTS</h4>
                             <ul>
-                                <li><Link>About</Link></li>
-                                <li><Link>Offers & Discounts</Link></li>
-                                <li><Link>Get Coupon</Link></li>
+                                <li><Link>Products</Link></li>
+                                <li><Link>Popular products</Link></li>
                                 <li><Link>Contact Us</Link></li>
                             </ul>
                         </div>
@@ -47,7 +43,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div className='row align-items-center'>
+                {/* <div className='row align-items-center'>
                     <div className='col-xl-7 col-lg-8 col-md-7'>
                         <div className='footerCopyRight'>
                             <p>Copyright ©
@@ -55,11 +51,11 @@ const Footer = () => {
                                 2023 All rights reserved | This template is made with
                                 <i className='fa fa-heart'></i>
                                 by
-                                <a href="http://colorlib.com">Colorlib</a>
+                                <a href="http://colorlib.com">G-SHOCK</a>
                             </p>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     )

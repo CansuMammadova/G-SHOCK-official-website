@@ -1,10 +1,17 @@
 .mainHeader {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   padding: 0 10px;
-  background-color: #fff;
+  background-color: #000000;
   z-index: 100;
   transition: top 0.3s ease-in-out;
-  top: -100px;
+  top: -30px;
+}
+
+.mainHeader h1{
+  cursor: context-menu;
+  color: #fff;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 60px;
 }
 
 .sticky {
@@ -24,7 +31,7 @@
 }
 
 .navbar ul li {
-  padding: 41px 21px;
+  padding: 21px 31px;
   display: inline-block
 }
 
@@ -32,7 +39,7 @@
   text-decoration: none;
   font-size: 16px;
   font-weight: 600;
-  color: #141517;
+  color: #ffffff;
   transition: all .2s ease-out 0s;
   -webkit-transition: all .2s ease-out 0s;
   -moz-transition: all .2s ease-out 0s;
