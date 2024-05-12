@@ -176,7 +176,7 @@ const Cart = () => {
         </div>
       </div>
     </div></Layout>
-  );
-};
+  )
+}
 
-export default Cart;
+export default Cart

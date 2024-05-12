@@ -5,7 +5,7 @@ import Contact from './Pages/Contact'
 import Home from './Pages/Home'
 import Cart from './Pages/Cart'
 import Shop from './Pages/Shop'
-import Shopping from './Pages/Shopping'
+import Watches from './Pages/Watches'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 const App = () => {
@@ -14,7 +14,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/shop" element={<Shop />} />
-        <Route path="/shopping" element={<Shopping />} />
+        <Route path="/watches" element={<Watches />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/cart" element={<Cart />} />
       </Routes>
