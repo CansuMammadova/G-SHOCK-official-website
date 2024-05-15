@@ -25,7 +25,7 @@ const Home = () => {
         </div>
       </div>
       <section className='new-product-area'>
-        <div className='container'>
+        {/* <div className='container'> */}
           <div className='row'>
             <div className='tittle'>
               <h2>POPULAR PRODUCTS</h2>
@@ -35,7 +35,7 @@ const Home = () => {
 
             <Swiper
               slidesPerView={6}
-              spaceBetween={5}
+              spaceBetween={10}
               pagination={{
                 clickable: true,
               }}
@@ -190,7 +190,7 @@ const Home = () => {
 
 
           </div>
-        </div>
+        {/* </div> */}
       </section>
       <div className='video-area mb-100'>
         <div className='row'>

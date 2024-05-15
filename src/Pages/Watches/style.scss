@@ -1,7 +1,56 @@
 .watches .slider {
+    width: 100%;
     height: 100vh;
     background-image: url(./img/bg2.avif);
     overflow: hidden;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.watch-shop {
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    img {
+        background-color: #e6e3e3;
+        cursor: pointer;
+    }
+
+    h6,
+    h5 {
+        cursor: context-menu;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    h6 {
+        margin-top: 15px;
+    }
+
+    p {
+        cursor: context-menu;
+        margin-bottom: 40px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #444444;
+    }
+}
+
+.promotion-video {
+    .vid-title {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+}
+
+.feature {
+    .title-1 {
+        h3 {
+            margin-top: 40px;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+    }
+
+    .row {
+        width: 100%;
+    }
 }

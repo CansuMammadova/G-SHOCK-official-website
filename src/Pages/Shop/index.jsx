@@ -8,8 +8,6 @@ const Shop = () => {
     <Layout>
       <div className='slider'>
         <div className='container' style={{ display: 'flex' }}>
-          <div className='slider-image'>
-          </div>
         </div>
       </div>
       <div className='text-area'>
