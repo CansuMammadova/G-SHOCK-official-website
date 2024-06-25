@@ -178,15 +178,87 @@ const Watches = () => {
             </div>
             <div className='feature'>
                 <div className='title-1'>
-                    <h3>XÜSUSİYYƏT</h3>
+                    <h3>XÜSUSİYYƏTLƏR</h3>
                 </div>
-                <div className='row'>
-                    <div className='bg-1'>
-                        <img src="./img/bg-watches1.avif" alt="" />
+                <div className='box'>
+                    <div className='row'>
+                        <div className='col-6'>
+                            <img src="./img/watches12.avif" alt="" />
+                        </div>
+                        <div className='col-6'>
+                            <h4>Xüsusi texnika ilə yaradılan unikal dizayn: İki rəngli gümüş və qara rəng</h4>
+                            <p>Yalnız MT-G-nin əldə edə biləcəyi mürəkkəb formalı metal korpus, “işıq və kölgə”
+                                konsepsiyası ilə hazırlanmışdır. Çərçivə və ön vintlər qara IP ilə işləndikdən sonra,
+                                altındakı paslanmayan poladı üzə çıxarmaq üçün yerlərdə cilalama və kəsmə prosesləri
+                                tətbiq olunur. Saat və dəqiqə əqrəbləri üçün gümüş alumit müalicəsi tətbiq olunur,
+                                ardınca onların mərkəzləri lazerlə oyma və nəhayət qara alumit müalicəsi tətbiq olunur.</p>
+                        </div>
                     </div>
-                    <div className='content'>
-                        <p>Möhkəmlik, yığcam forma və yüngüllüyü birləşdirən:
-                            Daha təkmilləşmiş iki nüvəli qoruyucu quruluş</p>
+                </div>
+                <div className='box'>
+                    <div className='row'>
+                        <div className='col-6'>
+                            <img src="./img/watches13.avif" alt="" />
+                        </div>
+                        <div className='col-6'>
+                            <h4>Dual Core Guard strukturu: Sərtlik, yığcam forma və yüngüllük təmin edir</h4>
+                            <p>Dual Core Guard strukturu modulu karbon lifi ilə gücləndirilmiş qatran korpusu ilə
+                                qoruyur və korpusu metal komponentlərlə əhatə edir. Korpusun arxa tərəfi lentləri
+                                korpusa birləşdirən qapaqlar və tac və düymələr üçün qoruyucu kimi xidmət etmək
+                                üçün qaldırılır. İnteqrasiya edilmiş qəlibləmə gücləndirilmiş sərtlik təmin etməklə
+                                yanaşı, həm də saatı belə yığcam və yüngül etməyə kömək edir.</p>
+                        </div>
+                    </div>
+                </div>
+                <div className='box'>
+                    <div className='row'>
+                        <div className='col-6'>
+                            <img src="./img/watches14.avif" alt="" />
+                        </div>
+                        <div className='col-6'>
+                            <h4>Mürəkkəb formalı korpus arxası: Formanın tamamilə orijinal gözəlliyini yaradır</h4>
+                            <p>Biləkdə hamar olan, lakin mürəkkəb, 3D formada yuxarıya doğru çıxan paslanmayan polad
+                                korpusu hazırlamaq üçün təkrar basma, kəsmə və cilalama proseslərini tətbiq edirik.
+                                Onun konfiqurasiyası üst çərçivə ilə birləşir və hər ikisini birləşdirən unikal
+                                formalı vintlər var. Heyrətamiz korpus dizaynı metal materialın özünün dərin
+                                görünüşünü və onun mürəkkəb formasının gözəlliyini nümayiş etdirir, eyni zamanda
+                                incə profili təmin edir.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className='content'>
+                <div className='row flex-wrap justify-content-center'>
+                    <div className='col-4'>
+                        <div className='box'>
+                            <div className='img-area'>
+                                <img src="./img/watches15.avif" alt="" />
+                            </div>
+                            <div className='text'>
+                                <p>Dual Core Guard strukturu karbon və metalı birləşdirir</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='col-4'>
+                        <div className='box'>
+                            <div className='img-area'>
+                                <img src="./img/watches16.avif" alt="" />
+                            </div>
+                            <div className='text'>
+                                <p>Qaranlıqda saatın oxunmasını qorumaq üçün Super İşıqlandırıcı
+                                    (yüksək parlaqlıqlı LED işıq).</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='col-4'>
+                        <div className='box'>
+                            <div className='img-area'>
+                                <img src="./img/watches17.avif" alt="" />
+                            </div>
+                            <div className='text'>
+                                <p>Cızıqlara davamlı, əks etdirməyən örtüklü yüksək şəffaf sapfir kristal</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

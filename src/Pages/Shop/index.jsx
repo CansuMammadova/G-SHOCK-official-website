@@ -182,7 +182,7 @@ const Shop = () => {
           </div>
         </div>
       </div>
-      <div className='video'>
+      <div className='video-time'>
         <div className='container'>
           <div className='row'>
             <div className='content'>
@@ -313,3 +313,4 @@ const Shop = () => {
 }
 
 export default Shop
+

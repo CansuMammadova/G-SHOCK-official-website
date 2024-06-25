@@ -36,6 +36,7 @@
 
 .promotion-video {
     .vid-title {
+        cursor: context-menu;
         text-align: center;
         margin-bottom: 40px;
     }
@@ -44,13 +45,45 @@
 .feature {
     .title-1 {
         h3 {
+            cursor: context-menu;
             margin-top: 40px;
             margin-bottom: 40px;
             text-align: center;
         }
     }
 
-    .row {
+    .box {
+        width: 1300px;
+        height: 450px;
+        background-color: #fff;
+        border: 1px solid #000;
+        margin: 40px auto;
+
+        img {
+            width: 600px;
+            height: 447px;
+        }
+
+        h4 {
+            cursor: context-menu;
+            margin-top: 50px;
+        }
+
+        p {
+            cursor: context-menu;
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
+
+.content {
+
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    img {
         width: 100%;
+        margin-bottom: 20px;
     }
 }
